@@ -1,0 +1,15 @@
+dependencies:
+  espressif/esp_lcd_gc9a01: ^2.0.4
+  espressif/esp_lcd_touch_cst816s: "*"
+  espressif/esp_lvgl_adapter:
+    public: true
+    version: 0.4.*
+  idf: '>=5.5'
+  lvgl/lvgl: '>=8,<10'
+description: Board Support Package (BSP) for Waveshare ESP32-C6-Touch-LCD-1.28
+tags:
+- bsp
+targets:
+- esp32c6
+url: https://www.waveshare.com/
+version: 1.0.0

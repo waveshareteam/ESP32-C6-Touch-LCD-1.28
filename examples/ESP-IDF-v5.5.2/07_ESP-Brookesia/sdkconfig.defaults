@@ -1,0 +1,12 @@
+CONFIG_IDF_TARGET="esp32c6"
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+CONFIG_LV_FONT_MONTSERRAT_12=y
+
+# This C6 factory demo uses the Brookesia Phone shell only. Keep unused
+# Brookesia AI/Speaker/SquareLine modules off so no speaker animation
+# partitions or PSRAM-oriented assets are generated.
+# CONFIG_ESP_BROOKESIA_ENABLE_AI_FRAMEWORK is not set
+# CONFIG_ESP_BROOKESIA_GUI_ENABLE_ANIM_PLAYER is not set
+# CONFIG_ESP_BROOKESIA_GUI_ENABLE_SQUARELINE is not set
+# CONFIG_ESP_BROOKESIA_SYSTEMS_ENABLE_SPEAKER is not set
