@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
   "product": "ESP32-C6-Touch-LCD-1.28",
   "product_url": "https://www.waveshare.com/ESP32-C6-Touch-LCD-1.28.htm",
-  "tier": 1,
+  "tier": 0,
   "target": "esp32c6",
   "esp_idf": {
     "versions": ["v5.5.2"]
